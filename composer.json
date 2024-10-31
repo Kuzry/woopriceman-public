@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "WooPriceman\\": "src"
+    }
+  },
+  "require": {
+    "laminas/laminas-servicemanager": "3.17.0"
+  }
+}

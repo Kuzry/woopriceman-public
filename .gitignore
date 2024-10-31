@@ -1,0 +1,7 @@
+vendor/
+composer.lock
+
+assets/dist
+
+views/admin/pages/node_modules
+views/admin/pages/package-lock.json

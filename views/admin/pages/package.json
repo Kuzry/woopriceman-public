@@ -1,0 +1,40 @@
+{
+  "name": "wpimportify-admin-pages",
+  "private": true,
+  "scripts": {
+    "webpack": "node_modules/.bin/webpack --mode production",
+    "webpack-dev": "node_modules/.bin/webpack --mode development",
+    "type-check": "tsc --watch"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@fontsource/fira-sans": "^5.0.8",
+    "@fontsource/lato": "^5.0.8",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mantine/core": "^6.0.17",
+    "@mantine/hooks": "^6.0.17",
+    "@tanstack/react-query": "^4.32.6",
+    "@tanstack/react-table": "^8.9.3",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.32.0",
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
